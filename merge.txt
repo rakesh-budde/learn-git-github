@@ -3,3 +3,10 @@ git merge <branch-name>
 
 #merge commits
 git merge <branch-name>
+-> it opens a file to add a commit message, add some message and save it.
+
+#merge conflicts
+git merge <branch-name>
+-> resolve merge conflicts
+-> git add .
+-> git commit -m "something"
