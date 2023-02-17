@@ -1,0 +1,28 @@
+#list branches
+git branch
+
+#create a new branch
+->go to the branch, which you want to select as base branch.
+git branch <new branch name> or
+git checkout -b <new branch name> or
+git switch -c <new branch name>
+
+#switch to another branch
+git switch <branch name> or
+git checkout <branch name>
+
+#delete a branch
+->switch to another branch
+git branch -d <branch-name> #can only delete after merge
+git branch -D <branch name> #equivalent to force deletion
+git branch -d -f <branch name> #force delete
+
+#rename a branch
+->checkout to the branch you want to change the name
+git branch -m <new branch name>
+
+#merge a branch to the master
+->go to the master branch
+git merge <target branch name>
+
+
