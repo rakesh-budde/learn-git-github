@@ -1,0 +1,17 @@
+#stash non committed changes
+git stash
+
+#get the changes from stash
+git stash pop
+
+#list the all content from stash
+git stash list
+
+#Don't remove the changes from stash
+git stash apply <stash-id>
+
+#remove a stash
+git stash drop <stash-id>
+
+#remove all content from stash
+git stash clear
