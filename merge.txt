@@ -1,0 +1,5 @@
+#fast forward merge
+git merge <branch-name>
+
+#merge commits
+git merge <branch-name>
