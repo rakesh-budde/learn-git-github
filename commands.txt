@@ -27,4 +27,8 @@ git checkout HEAD~1 #1 commit back
 
 # undo files
 git checkout HEAD <filename>
+git checkout -- <filename>
 
+# undo files with git restore
+git restore <filename>
+git restore --source HEAD~2 <filename>
