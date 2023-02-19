@@ -12,3 +12,11 @@ git clone <repo url>
 git push origin <branch-name> or
 git push origin <local-branch>:<remote-branch>
 git push -u origin <branch-name> #set upstream branch so that next time you no need to provide branch name
+
+#switch to remote branch
+git switch <branch-name> or
+git checkout --track origin/<branch-name>
+
+#fetch from remote repo to local repo(do not fetch to workspace)
+git fetch origin #fetch changes from all branches
+git fetch origin <branch-name> #fetch changes from specific branch
