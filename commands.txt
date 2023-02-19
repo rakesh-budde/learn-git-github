@@ -41,4 +41,6 @@ git reset <commit id> or
 git reset HEAD~2 or
 git reset --hard <commit id> #it removes cahnges from local as well
 
+# undo/discard/delete bad commits by making another commit
+git revert <commit id>
 
