@@ -32,3 +32,6 @@ git checkout -- <filename>
 # undo files with git restore
 git restore <filename>
 git restore --source HEAD~2 <filename>
+
+#unstage files
+git restore --staged <filename>
