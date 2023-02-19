@@ -23,6 +23,7 @@ git branch -m <new branch name>
 
 # time travel in git
 git checkout <commit id>
+git checkout HEAD~1 #1 commit back
 
 # undo files
 git checkout HEAD <filename>
