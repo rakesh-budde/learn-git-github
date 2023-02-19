@@ -35,3 +35,10 @@ git restore --source HEAD~2 <filename>
 
 #unstage files
 git restore --staged <filename>
+
+# delete bad commits
+git reset <commit id> or
+git reset HEAD~2 or
+git reset --hard <commit id> #it removes cahnges from local as well
+
+
