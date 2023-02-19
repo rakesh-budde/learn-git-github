@@ -1,0 +1,9 @@
+#configure user details
+git config user.name <username>
+git config user.email <email id>
+
+# configure github remote repo
+git remote add <origin> <repo url>
+
+#clone a repo
+git clone <repo url>
