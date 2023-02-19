@@ -21,8 +21,9 @@ git branch -d -f <branch name> #force delete
 ->checkout to the branch you want to change the name
 git branch -m <new branch name>
 
-#merge a branch to the master
-->go to the master branch
-git merge <target branch name>
+# time travel in git
+git checkout <commit id>
 
+# undo files
+git checkout HEAD <filename>
 
