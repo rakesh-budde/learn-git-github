@@ -7,3 +7,8 @@ git remote add <origin> <repo url>
 
 #clone a repo
 git clone <repo url>
+
+#push to a repo
+git push origin <branch-name> or
+git push origin <local-branch>:<remote-branch>
+git push -u origin <branch-name> #set upstream branch so that next time you no need to provide branch name

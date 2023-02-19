@@ -1,5 +1,6 @@
 #list branches
 git branch
+git branch -a #list all branches
 
 #create a new branch
 ->go to the branch, which you want to select as base branch.
