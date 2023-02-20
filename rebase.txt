@@ -7,3 +7,6 @@ git rebase master
 -> resolve merge conflicts
 -> stage the changes
 git rebase --continue
+
+# interactive rebase
+git rebase -i HEAD~4 #the number of commits you want to go back
