@@ -1,0 +1,9 @@
+# rebase changes from master branch to feature branch
+-> checkout to feature branch
+git rebase master
+
+# rebase when merge conflicts occur
+git rebase master
+-> resolve merge conflicts
+-> stage the changes
+git rebase --continue
