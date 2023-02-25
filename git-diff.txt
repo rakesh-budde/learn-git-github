@@ -1,5 +1,15 @@
 #difference b/w staging and working directory
 git diff
 
-#difference b/w last commit(head) and working directory
+#all changes since head
 git diff HEAD	
+git diff HEAD <filename> #changes of a specific file
+
+#view staged changes
+git diff --staged
+git diff --cached
+
+#compare 2 branches
+git diff <branch1>..<branch2> #or
+git diff <branch1> <branch2>
+
