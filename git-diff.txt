@@ -1,0 +1,5 @@
+#difference b/w staging and working directory
+git diff
+
+#difference b/w last commit(head) and working directory
+git diff HEAD	
