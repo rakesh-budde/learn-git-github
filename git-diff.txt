@@ -13,3 +13,7 @@ git diff --cached
 git diff <branch1>..<branch2> #or
 git diff <branch1> <branch2>
 
+#compare 2 commits
+git diff <commit1>..<commit2> #or
+git diff <commit1> <commit2>
+
