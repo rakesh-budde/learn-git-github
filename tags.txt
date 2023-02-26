@@ -1,0 +1,30 @@
+#view tags
+git tag # or
+git tag -l
+
+#search for a specific tags
+git tag -l "<tag-name>"
+
+#go to a specific tag
+git checkout <tag-name>
+
+#create a light weight tag
+-> go to the commit that you want to create tag for
+git tag <tag-name>
+
+#create annotated tags
+git tag -a <tag-name>
+git show <tag-name>
+
+#create a tag for a specific commit
+git tag <tag-name> <commit-id>
+
+#change tag commit with force
+git tag -f <tag-name> <commit-id>
+
+#delete a tag
+git tag -d <tag-name>
+
+#push tags
+git push --tags #push all tags at once
+git push origin <tag-name>
