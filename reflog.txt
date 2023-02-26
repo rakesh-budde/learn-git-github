@@ -1,0 +1,16 @@
+#track HEAD history
+git reflog show HEAD
+
+#compare yesterday changes
+git diff master master@{yesterday}
+
+# show n days/minutes/hours ago 
+git reflog show HEAD@{2.days.ago}
+git reflog show HEAD@{5.minutes.ago}
+
+# go to n days/minutes/hours ago
+git checkout HEAD@{5.minutes.ago}
+
+#restore a commit
+git reset --hard master@{1}
+
