@@ -47,3 +47,7 @@ git revert <commit id>
 
 #add changes to last commit/modify last comit message
 git commit --amend
+
+#add aliased
+git config --global alias.s status
+git config --global alias.cm commit
